@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.back {
+    background-image: url('image/rom\ wallpaper.jpg');
+background-size: cover;
+height: 100%;
+   position: fixed;
+   background-position: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 56px;
+
+     /* display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: white;
+    justify-content: right;
+    right: 34px;
+    flex-direction: row; */
+
+}
+
+.navbar ul li a{
+    padding: 3px 12px;
+    display: block;
+    color: black;
+    font-size: 1rem;
+
+}
+
+.navbar image{
+    width: 69px;
+    height: 55px;
+}
+
+.navbar{
+    background-color: white;
+}
+.navbar ul li:hover a{
+    padding-left: 50px;
+    font-size:1.3rem;
+   }  
+#slidebar{
+    position: fixed;
+    left:0;
+    width: 250px;
+    height:100%;
+    background:rgb(40 39 39);
+    display:block;
+}
+
+#slidebar header{
+    font-size: 22px;
+    color:palevioletred ;
+    text-align: center;
+    line-height: 40px;
+    background:rgb(40 39 39)
+
+
+}
+
+#slidebar header img{
+   width: 64px;
+   height: 50px;
+}
+
+
+#slidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height:65px;
+    color: honeydew;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(167, 156, 156);
+    border-bottom: 1px solid black;
+   }
+
+ #slidebar ul li:hover a{
+  padding-left: 50px;
+  font-size:1.3rem;
+ }  
+ .slidebar span{
+     display: flex;
+ }
+ #arrow {
+    color: thistle;
+  
+ }
+ #inout ul{
+    background-color: white;
+     display: flex;
+     padding-left: 12px;
+     cursor: pointer;
+    
+ }
+
+ .container{
+    min-height: 65vh;
+    color: white;
+  
+   
+     margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container h1{
+  display: flex;
+  width: auto;
+  /* justify-content: center; */
+     justify-content: center;
+}
+.bottom{
+  height: 70px;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icon{
+    margin-top: 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+   
+}
+#myprogressBar{
+ width: 40vw;
+ cursor: pointer;
+ display: flex;
+
+}
+
+.songs {
+  height: 50px; 
+  display: flex;
+  width: 80%;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black; 
+  margin-top: 7px;
+  border-radius: 6px;
+  padding: 5px;
+  
+}
+
+.info img{
+  display: flex;
+  flex-direction: row;
+  opacity:0;
+  transition: opacity 0.4s is ease-in;
+}
+
+
+.gana{
+    flex-direction: column;
+  
+}
+
+.gana img{
+    
+    margin-left: 20px;
+    margin-bottom: 5px;
+    
+}
+
+.gana i{
+   margin-left: -15px;
+   color: black;
+   cursor: pointer;
+}
+
+
+ 

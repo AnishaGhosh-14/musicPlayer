@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+#back {
+    background-image: url('image/piSy8JF9RFRmT_Lgvp492FAuf1PX2qvezInnmJPs9Wc.jpg');
+background-size: cover;
+    height: 100%;
+   position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+/* body{
+   
+        /* margin: 0px;
+        padding: 0px;
+    background: url('image/piSy8JF9RFRmT_Lgvp492FAuf1PX2qvezInnmJPs9Wc.jpg'); */
+    
+
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: white;
+    justify-content:right;
+    right: 34px;
+    flex-direction: row;
+
+}
+/* nav ul{
+    display: flex;
+    justify-content:right;
+display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+} */
+ .brand img{
+    width: 69px;
+    height: 55px;
+    /* padding-left: 1000px; */
+    
+}
+.brand{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.brand ul li:hover a{
+    padding-left: 50px;
+    font-size:1.3rem;
+   }  
+ nav ul .brand{
+    margin: 0px 19px;
+    color: black;
+    align-items: center;
+ } 
+ #slidebar{
+  
+     position: fixed;
+     left:0;
+     width: 250px;
+     height:100%;
+     background:rgb(40 39 39);
+     display:block;
+ }
+
+ #slidebar header{
+     font-size: 22px;
+     color:palevioletred ;
+     text-align: center;
+     line-height: 40px;
+     background:rgb(40 39 39)
+
+
+ }
+
+#slidebar header img{
+    width: 64px;
+    height: 50px;
+}
+
+
+ #slidebar ul a{
+     display: block;
+     height: 100%;
+     width: 100%;
+     line-height:65px;
+     color: honeydew;
+     padding-left: 40px;
+     box-sizing: border-box;
+     border-top: 1px solid rgb(167, 156, 156);
+     border-bottom: 1px solid black;
+    }
+
+  ul li:hover a{
+   padding-left: 50px;
+   font-size:1.3rem;
+  }  
+  .slidebar span{
+      display: flex;
+  }
+ #arrow {
+     color: thistle;
+   
+  }
+  #inout ul{
+      background-color: white;
+      border-top: white;
+      display: flex;
+      padding-left: 12px;
+  }
+
+  .container{
+      min-height: 65vh;
+      color: white;
+    
+     
+       margin: 10px auto;
+      display: flex;
+      justify-content: center;
+  }
+
+  .container h1{
+    display: flex;
+    width: auto;
+    /* justify-content: center; */
+       justify-content: center;
+  }
+  .bottom{
+    height: 70px;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .icon{
+      margin-top: 10px;
+      cursor: pointer;
+      justify-content: center;
+      align-items: center;
+     
+  }
+  #myprogressBar{
+   width: 40vw;
+   cursor: pointer;
+   display: flex;
+
+  }
+
+  .songs {
+    height: 50px; 
+    display: flex;
+    width: 80%;
+  }
+ 
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black; 
+    margin-top: 7px;
+    border-radius: 6px;
+    padding: 5px;
+    
+}
+
+.info img{
+    display: flex;
+    flex-direction: row;
+    opacity:0;
+    transition: opacity 0.4s is ease-in;
+}
+
+.gana{
+    flex-direction: column;
+  
+}
+
+.gana img{
+    
+    margin-left: 20px;
+    margin-bottom: 5px;
+    
+}
+
+.gana i{
+   margin-left: -15px;
+   color: black;
+   cursor: pointer;
+}

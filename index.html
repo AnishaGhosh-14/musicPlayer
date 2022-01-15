@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div id="back">
+        <div class="bar">
+            <nav>
+
+                <ul>
+                    <!-- <li class="brand"><a href="index.html">Home</a></li> -->
+                    <li class="brand"><a href="about.html">About</a></li>
+                    <li class="brand"><img src="image/18e2f7d04a9e52239a111da88dd3e479.png"></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div id="inout">
+            <ul>
+                <li id="arrow" onclick="hide()"><i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;&nbsp;</li>
+                <li id="arrow" onclick="hide()"><i class="fa fa-arrow-right" aria-hidden="true"></i></li>
+            </ul>
+
+        </div>
+        <div id="slidebar">
+
+            <header>MOOD:)</header>
+            <header><img src="image/18e2f7d04a9e52239a111da88dd3e479.png"></header>
+            <ul>
+
+                <li><a href="sad.html">Sad</a></li>
+                <li><a href="rom.html">Romantic</a></li>
+                <li><a href="eng.html">English</a></li>
+                <li><a href="hindi.html">Hindi</a></li>
+
+
+            </ul>
+           
+        </div>
+        <div class="container">
+            <div class="songlist">
+                <h1>Albums</h1>
+                <div class="gana">
+                    <div class="songs"></div>
+                    <img src="image/be alright.jpg" width="100" height="100" alt="1">
+                    <!-- <span class="songplay"> Be Alright - Dean Lewis 05:12> -->
+                    <i id="1" class="fas songItemPlay fa-1x fa-play-circle"></i>
+
+
+                    <img src="image/alag aasman.jpg" width="100" height="100" alt="2"></i>
+                    <i id="2" class="fas songItemPlay fa-1x fa-play-circle"></i>
+
+                    <img src="image/lose you to love me.jpg" width="100" height="100" alt="3">
+                    <i id="3" class="fas songItemPlay fa-1x fa-play-circle"></i>
+
+                    <img src="image/ill be waiting.jpeg" width="100" height="100" alt="3">
+                    <i id="4" class="fas songItemPlay fa-1x fa-play-circle"></i>
+
+                    <img src="image/kasoor.jfif" width="100" height="100" alt="3">
+                    <i id="5" class="fas songItemPlay fa-1x fa-play-circle"></i>
+                </div>
+
+
+                <!-- <span class="songplay"> Be Alright - Dean Lewis</span> 
+           <span class="time" 05:12><i id="1" class="fas songItemPlay fa-1x fa-play-circle"></i></span>
+
+           <span class="songplay">Alag Aasmaan - Anuv Jain</span> 
+           <span class="time" 05:12><i id="2" class="fas songItemPlay fa-1x fa-play-circle"></i></span>
+
+           <span class="songplay"> Lose You to Love You - Selena Gomez</span> 
+           <span class="time" 05:12><i id="3" class="fas songItemPlay fa-1x fa-play-circle"></i></span>
+
+           <span class="songplay">I'll Be Waiting - Arjun</span> 
+           <span class="time" 05:12><i id="4" class="fas songItemPlay fa-1x fa-play-circle"></i></span>
+
+           <span class="songplay">Kasoor - Prateek Kuhad</span> 
+           <span class="time" 05:12><i id="5" class="fas songItemPlay fa-1x fa-play-circle"></i></span>
+
+            </span> -->
+            </div>
+
+            <div class="banner"></div>
+
+        </div>
+
+        <div class="bottom">
+            <input type="range" name="range" id="myprogressBar" value="0" min="0" max="100">
+            <div class="icon">
+
+                <i class="fas fa-2x fa-step-backward" id="previous">&nbsp;&nbsp;</i>
+                <i class="fas fa-2x fa-play-circle" id="masterPlay">&nbsp;&nbsp;</i>
+                <i class="fas fa-2x fa-step-forward" id="next" aria-hidden="true"></i>
+
+
+
+            </div>
+            <div class="info">
+                <img src="image/T9re_S.gif" width="60px" alt="sound" id="gif"><span id="masterSongName"> Be Alright -
+                    Dean Lewis</span>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/f277bfc194.js" crossorigin="anonymous"></script>
+    <script src="js1.js"></script>
+</body>
+
+</html>
